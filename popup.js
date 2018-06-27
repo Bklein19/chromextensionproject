@@ -1,4 +1,4 @@
-var status = $.get('https://destiny.gg' , function(response) {
+$.get('https://destiny.gg' , function(response) {
 	//do scraping
 	console.log(response);	
 });
