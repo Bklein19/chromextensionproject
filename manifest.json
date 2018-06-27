@@ -2,14 +2,14 @@
   "manifest_version": 2,
 
   "name": "testinty",
-  "description": "This extension will notify the user if Steven 'Destiny' Bonnell II is live on Twitch.tv",
+  "description": "This extension will notify the user if Steven 'Destiny' Bonnel II is live on Twitch.tv",
   "version": "1.0",
 
+  "background" : {
+     "scripts" : ["background.js"]
+},
   "browser_action": {
-   "default_icon": "icon.png",
-   "default_popup": "popup.html"
+   "default_icon": "icon.png"
   },
-  "permissions": [
-   "activeTab"
-   ]
+  "permissions": ["activeTab"]
 }
